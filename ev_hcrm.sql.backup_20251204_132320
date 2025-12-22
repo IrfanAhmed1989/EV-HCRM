@@ -1,0 +1,4 @@
+
+# Backup current file, then replace via clipboard
+cp -f ev_hcrm.sql "ev_hcrm.sql.backup_$(date +%Y%m%d_%H%M%S)"
+pbpaste > ev_hcrm.sql

@@ -1,0 +1,16 @@
+EV-HCRM — Grader Checklist (Dec 20, 2025)
+
+[✓] Project runs via run.sh (activates venv and launches GUI)
+[✓] DB config via config.json (Host, Port, User, Password, Database)
+[✓] Stored procedures: addChargingSession, updateChargingSession, deleteChargingSession, getChargingSessions
+[✓] Views present: session_details, monthly_statements (names may vary per schema)
+[✓] CRUD via GUI: Add, Update, Delete
+[✓] Update fix: DAL passes start_date/start_time from BLL (not sdate/stime)
+[✓] Exports: Monthly CSV and PDF (sample provided)
+[✓] README: Quick Start, Troubleshooting, Advanced Feature, Sources
+[✓] Packaging: submission folder excludes .venv, __pycache__
+[✓] Verification: test row added/updated/deleted successfully on 2025-12-20
+
+Notes:
+- Base table columns: VehicleID, StartDate, StartTime, EndDate, EndTime, kWh, Cost
+- session_details columns: Vehicle, Start, End, kWh (strings for Start/End)

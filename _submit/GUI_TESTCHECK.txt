@@ -1,0 +1,8 @@
+GUI Testing Checklist
+[✓] MySQL up; schema loaded (ev_hcrm.sql)
+[✓] Login prompts before any data
+[✓] Sessions tab: retrieve, add, update, delete
+[✓] Changes reflect in views immediately
+[✓] Monthly statements export CSV/PDF
+[✓] Charts render correctly
+[✓] No crashes

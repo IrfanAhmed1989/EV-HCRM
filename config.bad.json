@@ -1,0 +1,1 @@
+{"user": "root", "password": "WRONG", "database": "ev_hcrm", "host": "127.0.0.1", "port": 3306, "unix_socket": "/tmp/mysql.sock"}

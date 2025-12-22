@@ -1,0 +1,12 @@
+GRADER CHECKLIST
+
+1. README present with run instructions and advanced feature description.
+2. Three modules: gui.py (view), bll.py (business), dal.py (data).
+3. DAL uses stored procedures and views only; no hard-coded credentials.
+4. Login screen precedes data; host/port editable.
+5. GUI shows status and error messages.
+6. CRUD works: Add, Update, Delete sessions.
+7. Changes reflected in views.
+8. Advanced feature: Export Monthly Statements to CSV and PDF.
+9. Application runs without crashing.
+10. Files included: gui.py, bll.py, dal.py, ev_hcrm_submit.sql, requirements.txt, run.sh, config.json, statement_*.csv, statement_*.pdf, README.md, GRADER_CHECKLIST.txt.

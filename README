@@ -1,0 +1,39 @@
+# EV Home Charging Reimbursement Manager (EV-HCRM)
+
+## Overview
+EV-HCRM is a Python GUI app to manage EV home charging sessions, calculate costs, and generate monthly reimbursement statements.
+
+## Features
+- Add, Edit, Delete charging sessions
+- Export monthly statements (CSV & PDF)
+- View cost charts
+- Dropdowns for Vehicle & Tariff
+
+## Setup
+```bash
+# Create virtual environment
+python3 -m venv venv
+source venv/bin/activate
+
+# Install dependencies
+pip install mysql-connector-python fpdf matplotlib
+
+# Load database
+mysql -u root -p < ev_hcrm.sql
+
+# Run app
+python GUI.py
+```
+
+## Testing Checklist
+1. Add Session → Fill details → Submit → Refresh
+2. Edit Session → Change kWh → Refresh
+3. Delete Session → Confirm → Refresh
+4. Monthly Statements → Enter YYYY-MM → Export CSV & PDF
+5. Charts → Refresh Chart → See cost bars
+
+## Screenshots
+screenshots/gui.png
+
+## ER Diagram
+er_diagram.png

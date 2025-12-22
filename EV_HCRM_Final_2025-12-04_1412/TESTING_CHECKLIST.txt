@@ -1,0 +1,7 @@
+EV-HCRM Testing Checklist
+[✓] MySQL running (socket)
+[✓] ev_hcrm.sql loaded; procedures exist (get/add/update/delete)
+[✓] Sessions inserted (Dec 2025)
+[✓] BLL exports CSV/PDF for 2025-12
+[✓] GUI starts (login prompts) and shows Sessions
+[✓] Charts render bars for costs
