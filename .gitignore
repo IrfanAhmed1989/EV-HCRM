@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.DS_Store
+*.zip
+config.bad.json
+config.json.bak
+~
+EV_HCRM_Submission_*/
+ev_hcrm_submit_*.sql
+ev_hcrm_submit_package.zip
