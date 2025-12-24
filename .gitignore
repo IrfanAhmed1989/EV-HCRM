@@ -10,3 +10,4 @@ config.json.bak
 EV_HCRM_Submission_*/
 ev_hcrm_submit_*.sql
 ev_hcrm_submit_package.zip
+.DS_Store
