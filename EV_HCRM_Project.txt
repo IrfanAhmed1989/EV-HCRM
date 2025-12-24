@@ -1,0 +1,21 @@
+EV-HCRM: EV Home Charging Reimbursement Manager
+
+Full source code: https://github.com/IrfanAhmed1989/EV-HCRM
+
+Contents of submission ZIP:
+
+Archive:  EV_HCRM_Submission_clean.zip
+Zip file size: 28634 bytes, number of entries: 12
+-rw-r--r--  3.0 unx    16109 tx defN 25-Dec-20 20:55 GUI.py
+-rw-r--r--  3.0 unx     6674 tx defN 25-Dec-20 22:10 bll.py
+-rw-r--r--  3.0 unx    10908 tx defN 25-Dec-20 22:17 dal.py
+-rw-r--r--  3.0 unx      482 tx defN 25-Dec-18 21:38 login.py
+-rwxr-xr-x  3.0 unx      245 tx defN 25-Dec-18 22:20 run.sh
+-rw-r--r--  3.0 unx      306 tx defN 25-Dec-18 21:13 requirements.txt
+-rw-r--r--  3.0 unx      142 tx defN 25-Dec-20 22:33 config.json
+-rw-r--r--  3.0 unx    11286 tx defN 25-Dec-08 22:03 ev_hcrm.sql
+-rw-r--r--  3.0 unx      795 tx defN 25-Dec-22 01:13 README.md
+-rw-r--r--  3.0 unx    18862 tx defN 25-Dec-04 15:33 ER_Diagram_EV_HCRM.pdf
+-rw-r--r--  3.0 unx       38 tx stor 25-Dec-20 22:45 statement_2025-12.csv
+-rw-r--r--  3.0 unx      982 bx defN 25-Dec-20 22:45 statement_2025-12.pdf
+12 files, 66829 bytes uncompressed, 26790 bytes compressed:  59.9%
